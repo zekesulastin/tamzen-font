@@ -5,12 +5,16 @@
 BACKPORTS = [
   # backport the given CHARACTER at the given WEIGHT from the given VERSIONS
   # (try them all, one by one, until one of them has the specified character)
-  {character: 'g', weight: /Medium/, versions: ['v1.6']},
-  {character: 'h', weight: /Medium/, versions: ['v1.6']},
-  {character: 'm', weight: /Medium/, versions: ['v1.6']},
-  {character: 'l', weight: //,       versions: ['v1.6']},
-  {character: 'w', weight: //,       versions: ['v1.6']},
-  {character: 'y', weight: //,       versions: ['v1.6']},
+  #{character: 'S',  weight: //,       versions: ['v1.6-derived']},
+  {character: 'U',  weight: /Medium/, versions: ['v1.6-derived']},
+  #{character: 'f',  weight: //,       versions: ['v1.6-derived']},
+  {character: 'g',  weight: /Bold/,   versions: ['v1.6-derived']},
+  {character: 'g',  weight: /Medium/, versions: ['v1.6-derived', 'v1.6']},
+  {character: 'h',  weight: /Medium/, versions: ['v1.6-derived', 'v1.6']},
+  {character: 'm',  weight: /Medium/, versions: ['v1.6-derived', 'v1.6']},
+  {character: 'l',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
+  {character: 'w',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
+  {character: 'y',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
 ]
 
 #-----------------------------------------------------------------------------
