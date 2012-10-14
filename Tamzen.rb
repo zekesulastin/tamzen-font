@@ -15,6 +15,16 @@ BACKPORTS = [
   {character: 'l',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
   {character: 'w',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
   {character: 'y',  weight: //,       versions: ['v1.6-derived', 'v1.6']},
+  # vim-powerline characters follow
+  {character: '⭠',  weight: //,       versions: ['powerline']},
+  {character: '⭡',  weight: //,       versions: ['powerline']},
+  {character: '⭢',  weight: //,       versions: ['powerline']},
+  {character: '⭣',  weight: //,       versions: ['powerline']},
+  {character: '⭤',  weight: //,       versions: ['powerline']},
+  {character: '⮀',  weight: //,       versions: ['powerline']},
+  {character: '⮁',  weight: //,       versions: ['powerline']},
+  {character: '⮂',  weight: //,       versions: ['powerline']},
+  {character: '⮃',  weight: //,       versions: ['powerline']},
 ]
 
 #-----------------------------------------------------------------------------
